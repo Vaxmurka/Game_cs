@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Game1.Views.DefaultGamePage">
+    <ContentPage.Content>
+        <StackLayout x:Name="buttonContainer" Orientation="Vertical" VerticalOptions="Center">
+            <Label x:Name="MainTitle" Text="Ход синих" TextColor="White" FontSize="Title" TextTransform="Uppercase" HorizontalOptions="Center"/>
+            <StackLayout x:Name="Field" Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="btn1" StyleId="btn1" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+                <Button x:Name="btn2" StyleId="btn2" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+                <Button x:Name="btn3" StyleId="btn3" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="btn4" StyleId="btn4" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+                <Button x:Name="btn5" StyleId="btn5" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+                <Button x:Name="btn6" StyleId="btn6" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="btn7" StyleId="btn7" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+                <Button x:Name="btn8" StyleId="btn8" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+                <Button x:Name="btn9" StyleId="btn9" Text="" WidthRequest="100" HeightRequest="100" BorderColor="White" BorderWidth="2"
+                FontSize="Large" BackgroundColor="WhiteSmoke" Clicked="Button_Clicked" />
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

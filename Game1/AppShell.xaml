@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Game1.Views"
+       Title="Game1"
+       x:Class="Game1.AppShell">
+    <TabBar>
+        <ShellContent Title="Standart" ContentTemplate="{DataTemplate local:DefaultGamePage}" />
+        <ShellContent Title="Ultimate" ContentTemplate="{DataTemplate local:UltimateGamePage}" />
+        <ShellContent Title="Pro" ContentTemplate="{DataTemplate local:ProGamePage}" />
+    </TabBar>
+</Shell>

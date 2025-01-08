@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Game1.Views.MainPage">
+    <StackLayout Orientation="Vertical">
+        <Button x:Name="Default" Text="Обычный режим" Clicked="Default_Clicked" />
+        <Button x:Name="Ultimate" Text="Большой формат" Clicked="Ultimate_Clicked" />
+        <Button x:Name="Pro" Text="Индексы" Clicked="Pro_Clicked" />
+    </StackLayout>
+</ContentPage>
